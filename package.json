@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm start --prefix server\""
+  },
+  "dependencies": {
+    "bwip-js": "^4.7.0",
+    "qrcode": "^1.5.4"
+  }
+}
